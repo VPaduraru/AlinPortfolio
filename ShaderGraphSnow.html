@@ -121,7 +121,7 @@
               I created a highly subdivided plane in Blender and imported it inside Unity. After that, I applied a
               <strong>normal map</strong> and a <strong>noise height map</strong>
               to create the snow. <br />
-              Then I applied another height map to the first one based on the player's previous position: by moving the
+              Then I applied another height map to the first one based on the player's previous position: by moving, the
               player draws on the second height map using a
               <strong>custom mask texture</strong> in order to lower the height of the snow by applying the height to
               the vertices, thus creating a <strong>vertex displacement shader</strong>.
@@ -164,12 +164,12 @@
               <div class="row">
                 <div class="col-lg-4">
                   <p style="text-align: justify;">
-                    I also wanted the sparkles to shine like they do in reality so I searched on the internet when do
+                    I also wanted the sparkles to shine like they do in reality, so I searched on the internet for when
                     this sparkling effect is visible the most.
                     After learning that the sparkles are mostrly visible when the <strong>light source is in front of
-                      the viewer</strong> I proceeded to create this effect
+                    the viewer</strong>, I proceeded to create this effect
                     by computing a dot product between the view direction and the main light direction; remapping it
-                    from (-1, 1) to (0,1) and multiplying the effect by this value
+                    from (-1, 1) to (0,1) and multiplying the effect by this value.
                   </p>
                 </div>
                 <div class="col-lg-8">
